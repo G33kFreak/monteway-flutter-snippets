@@ -6,6 +6,11 @@
     "engines": {
         "vscode": "^1.68.0"
     },
+    "homepage": "https://github.com/G33kFreak/monteway-flutter-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/G33kFreak/monteway-flutter-snippets.git"
+    },
     "categories": [
         "Snippets"
     ],
