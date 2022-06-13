@@ -19,6 +19,6 @@ Knowladge of Flutter Monteway
 
 ________________________
 
-### 1.0.0
+### 0.0.1
 
 Initial release

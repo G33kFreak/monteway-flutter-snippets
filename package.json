@@ -4,8 +4,9 @@
     "description": "",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.68.0"
+        "vscode": "^1.67.0"
     },
+    "publisher": "g33kFreak",
     "homepage": "https://github.com/G33kFreak/monteway-flutter-snippets",
     "repository": {
         "type": "git",
