@@ -1,0 +1,42 @@
+{
+	"Create BLoC event": {
+		"prefix": "event",
+		"body": [
+			"@autoequalMixin",
+			"class ${1:EventName} extends ${2:Extended}Event with _$${1:EventName}AutoequalMixin {",
+			"\tconst ${1:EventName}();",
+			"}"
+		]
+	},
+	"Create BLoC method": {
+		"prefix": "_on",
+		"body": [
+			"Future<void> _on${1:EventName}(",
+			"\t${1:EventName} event,",
+			"\tEmitter<${2:StateClass}> emit,",
+			") {",
+			"\n}"
+		]
+	},
+	"Create BLoC provider": {
+		"prefix":"_blocProvider",
+		"body": [
+			"class ${1:BlocName}Provider extends StatelessWidget {",
+			"\tfinal Widget child",
+			"",
+			"\tconst ${1:BlocName}Provider({",
+			"\t\tKey? key,",
+			"\t\trequired this.child",
+			"\t}) : super(key: key);",
+			"",
+			"\t@override",
+			"\tWidget build(BuildContext context) {",
+			"\t\treturn BlocProvider(",
+			"\t\t\tcreate: (context) => ${1:BlocName}(),",
+			"\t\t\tchild: child,",
+			"\t\t);",
+			"\t}",
+			"}"
+		],
+	}
+}
