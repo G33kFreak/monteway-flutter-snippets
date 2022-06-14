@@ -9,6 +9,8 @@ Collection of Flutter snippets that will help you keep Monteway with Flutter and
 | `event`    | Event class          | Creates a event class with @autoequalMixin                                                                                                                                                              |
 | `_on`    | Function          | Creates a function for a BLoC on<> statement                                                                                                                                                               |
 | `_blocProvider`      | Stateless Widget             | Creates separated BlocProvider for usage with AutoRouteWrapper                                                                     
+| `localImport`      | import             | Creates import for AppLocalizations  
+| `AppLocal`      | String             | Creates AppLocalizations string  
 
 ## Requirements
 Knowladge of Flutter Monteway
