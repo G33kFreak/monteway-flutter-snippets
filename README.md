@@ -3,7 +3,6 @@
 Collection of Flutter snippets that will help you keep Monteway with Flutter and don't get tired writing events!
 
 ## Features
-______________________
 
 | Shortcut   | Result                 | Description                                                                                                                                                                             |
 | ---------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -12,13 +11,16 @@ ______________________
 | `_blocProvider`      | Stateless Widget             | Creates separated BlocProvider for usage with AutoRouteWrapper                                                                     
 
 ## Requirements
-___________________________
 Knowladge of Flutter Monteway
 
 ## Release Notes
 
-________________________
 
-### 0.0.1
+### 0.0.1 and 0.0.2
 
-Initial release
+- Initial release
+
+### 0.0.3
+- Fixed semicolon for ```_blocProvider``` snippet
+- Added ```localImport``` and ```AppLocal``` snippets
+

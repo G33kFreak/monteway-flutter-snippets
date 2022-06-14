@@ -19,10 +19,10 @@
 		]
 	},
 	"Create BLoC provider": {
-		"prefix":"_blocProvider",
+		"prefix": "_blocProvider",
 		"body": [
 			"class ${1:BlocName}Provider extends StatelessWidget {",
-			"\tfinal Widget child",
+			"\tfinal Widget child;",
 			"",
 			"\tconst ${1:BlocName}Provider({",
 			"\t\tKey? key,",
@@ -38,5 +38,15 @@
 			"\t}",
 			"}"
 		],
+	},
+	"Import localizations": {
+		"prefix": "localImport",
+		"body": [
+			"import 'package:flutter_gen/gen_l10n/app_localizations.dart';"
+		]
+	},
+	"Add app local String": {
+		"prefix": "AppLocal",
+		"body": "AppLocalizations.of(context)!.${1}"
 	}
 }
